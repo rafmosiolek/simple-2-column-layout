@@ -9,5 +9,75 @@ body, html {
     width: 80%;
     margin: 0 auto;
     background-color: #99c;
-    
+
+}
+
+#header {
+    background-color: #ddd;
+    padding: 5px 10px;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+#nav {
+    background-color: #c99;
+    padding: 5px 10px;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+#nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    background-color: #9c9;
+    float: left;
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+h2 {
+    margin: 0 0 1em;
+}
+
+#sidebar {
+    background-color: #99c;
+    float: right;
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#footer {
+    background-color: #cc9;
+    clear: both;
+    padding: 5px 10px;
+
+}
+
+#footer p {
+    margin: 0;
+}
+
+
+/* Fix for IE6 */
+
+*html #footer {
+    height: 1px;
 }
